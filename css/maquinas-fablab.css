@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+    margin-right:200px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.container1 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container1 h1{
+    margin-top: 110px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.machine {
+    display: flex;
+    align-items: center;
+    
+}
+
+.machine-info {
+    flex: 1; 
+    padding: 30px;
+}
+
+.machine img {
+    
+    width: 210px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 10px; 
+    transition: transform 0.4s ease;
+}
+
+.machine img:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% */
+}
+
+.machine-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.machine-info li {
+    padding-bottom: 10px;
+}

@@ -1,0 +1,95 @@
+body{
+    padding: 0;
+    margin: 0;
+    margin-left: 280px;
+    margin-right: 370px;
+}
+
+.container1{
+    display: grid;
+    text-align: justify;
+}
+
+.atv {
+    margin-top: 120px;
+}
+
+.semana1 h2, .semana2 h2, .semana3 h2, .semana4 h2, .semana5 h2 {
+    margin-top: 50px;
+    padding-top: 40px; 
+
+}
+
+.semana1 p, .semana2 p, .semana3 p, .semana4 p, .semana5 p{
+    font-family: cursive;
+}
+
+.sidebar2 {
+    position: fixed;
+    font-family: sans-serif;
+    top: 100px;
+    right: 0px;
+    width: 110px;
+    height: 35%;
+    font-size: 15px;
+    margin-right: 60px;
+    text-align: start;
+    border-style: unset;
+    border-color: #ffffff;
+    border-radius: 10px;
+    /*box-shadow: 0px  1px 1px 01px rgba(128, 128, 128, 0.1); */
+}
+
+.sidebar2.active {
+    right: 0;
+}
+
+.sidebar2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar2 ul li {
+    padding: 12px;
+    background-color: #ffffff;
+}
+
+.sidebar2 ul li a {
+    color: rgb(14, 74, 238);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.sidebar2 a:hover {
+    text-decoration: underline; 
+    color: #000000;
+    
+}
+
+.sidebar2 ul li:hover {
+    background-color: #bdbdbd; /* Muda a cor de fundo ao passar o mouse sobre o li */
+    transform: scale(1.06);
+}
+
+.list h3{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.heading-border{
+    height: 0.1em;
+    display: flex;
+    width: 80%;
+    left: 10px;
+    position: relative;
+    background-color: rgb(48, 48, 48);
+    margin-bottom: 18px;
+}
+
+.imagem{
+    margin-left: 400px;
+}
+

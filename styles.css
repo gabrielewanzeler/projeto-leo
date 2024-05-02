@@ -1,0 +1,135 @@
+body {
+    /*font-family: Roboto, "Ubuntu", Arial, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    /*background: linear-gradient(180deg, rgb(255, 255, 255) 6%,#8a8a8a 40%, #5f5f5f 80%); */
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+}
+
+.header-container {
+    /*background-color: #412525; */
+    background-color: #3b3b3b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 80px;
+    padding: 0 10px;
+}
+
+.main-title {
+    color: #f1f1f1;
+    font-size: 32px;
+}
+
+.header-content img {
+    width: 59px;
+    height: 55px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.menu-text {
+    margin-left: 10px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left: -210px;
+    width: 210px;
+    height: 100%;
+    /*background-color: #412525; */
+    background-color: #3b3b3b;
+    transition: left 0.3s ease;
+    padding-top: 100px;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding:0;
+    margin: 0;
+    font-family:  'Times New Roman', Times, serif;
+}
+
+.sidebar ul li {
+    padding: 20px;
+    padding-top: 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar i {
+    font-size: 20px !important;
+    margin-top:15%;
+}
+
+.sidebar ul li:hover {
+    background-color: #838383;
+    transform: scale(1.007);
+    
+}
+
+.sidebar a:hover {
+    color: rgb(0, 0, 0); text-shadow: rgb(66, 66, 66) 0.2em 0.2em 0.4em;
+}
+
+.menu-button {
+    position: absolute;
+    top: 18px;
+    border-radius: 6px;
+    left: 15px;
+    z-index: 9999; 
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 22px;
+    background-color: transparent;
+}
+
+.menu-button:hover{
+    background-color: #5f5f5f;
+    border-radius: 2px;
+}
+
+.info{
+    float:left;
+    margin-top:10px;
+    margin-left: 290px;
+}
+.small h1{
+    margin-bottom: 50px;
+    margin-left: 290px;
+    margin-top: 140px;
+    font-size: 29px;
+}
+
+.info img{
+    width: 160px;
+}
+
+.content {
+    float:left;
+    max-width:1000px;
+    margin-left:30px;
+    text-align: justify;
+}

@@ -1,0 +1,205 @@
+body{
+    margin-left: 280px;
+    margin-right: 370px;
+}
+
+.container1{
+    display: grid;
+}
+
+.container1 h1{
+    margin-top: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.contato-leo h1{
+    text-align: center;
+}
+.projetos-leo h1{
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.fablab h2, .lemag h2, .lacut h2{
+    padding-top: 60px;
+}
+.nome-leo p , .projetos-leo p, .fablab p, .lemag p, .lacut p{
+    text-align: justify;
+    font-family: cursive;
+}
+
+.contato-leo {
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.container1 img {
+    margin-top: 10px;
+    width: 330px;
+    margin-left: 500px;
+    border-radius: 3px; 
+    transition: transform 0.3s ease;
+}
+
+.container1 img:hover {
+    transform: scale(1.03);
+}
+
+.sidebar2 {
+    position: fixed;
+    font-family: sans-serif;
+    top: 100px;
+    right: 0px;
+    width: 110px;
+    height: 22%;
+    font-size: 15px;
+    margin-right: 75px;
+    text-align: start;
+    border-style: none;
+    border-color: #ffffff;
+    border-radius: 10px;
+    /*box-shadow: 0px  1px 1px 01px rgba(128, 128, 128, 0.1); */
+}
+
+.sidebar2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.sidebar2 ul li {
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.sidebar2 ul li a {
+    color: #000000; 
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.sidebar2 a:hover {
+    text-decoration: underline ; 
+    color: #063792;
+}
+
+.sidebar2  li:hover {
+    background-color: #d3d3d3;
+}
+
+.menu-left__item .second li:hover {
+    background-color: #d3d3d3;
+}
+
+.menu-left__item .second li {
+    margin-top: 10px;
+    padding:7px;
+    margin-left: 20px;
+}
+
+.sidebar2 .menu-left__item:hover{
+    background-color: #ffffff;
+    
+}
+
+.list h3{
+    font-size: 17px;
+    margin: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.container i {
+    font-size: 16px !important;
+    margin-right: 4px;
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+
+.heading-border{
+    height: 0.1em;
+    display: flex;
+    width: 90%;
+    left: 5px;
+    position: relative;
+    background-color: rgb(48, 48, 48);
+    margin-bottom: 10px;
+}
+
+.box-social    { 
+    margin: auto;
+    display: table;
+}
+
+.box-social li {  
+    float:left; 
+    text-align:center; 
+    margin: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.icone-box-github, .icone-box-linkedin, .icone-box-email{
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+}
+
+.contato-leo i {
+    font-size: 20px !important;
+    margin-top:25%;
+}
+
+.icone-box-linkedin {
+    background-color:#3b5998;
+    color: #fff;
+    font-size: 10px !important;
+}
+
+.icone-box-github {
+    background-color:#2b2b2b;
+    color: #fff;
+}
+.icone-box-email {
+    background-color:#be4f40;
+    color:#fff;
+}
+
+.flip-cor {
+-webkit-transition: 0.3s;
+        transition: 0.3s;
+}
+
+li:hover:hover .flip-cor  {
+    transform: rotateY(360deg);
+    transition: .4s;
+}
+
+.back li:first-child:hover a div {
+    background-color: #e6e7e9;
+    color: #3b5998;
+    transition: .4s;
+}
+.back li:nth-child(2):hover a div {
+    background:hsl(0 0% 10%);
+    background: radial-gradient(circle at 30% 107%, #e6e7e9 0%, #e6e7e9 5%, #e6e7e9 45%,#e6e7e9 60%,#e6e7e9 90%); 
+    color: #3a3839;
+    transition: .4s;
+}
+
+.back li:nth-child(3):hover a div {
+    background-color: #e6e7e9;
+    color: #ed2f00;
+    transition: .4s;
+}
+
+.cor-horizontal:hover, .cor-horizontal:focus, .cor-horizontal:active {
+    color: white;
+}
+.cor-horizontal:hover:before, .cor-horizontal:focus:before, .cor-horizontal:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
