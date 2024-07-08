@@ -12,8 +12,13 @@
     <script src="script.js"></script> <!-- Adiciona o arquivo JavaScript -->
 </head>
 <body>
+    <button class="menu-button3" onclick="alternarSidebar3()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="44" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+    </button>
     <div class="list">
-        <nav class="sidebar2">
+        <nav class="sidebar3">
             <strong><h3>Conteúdo</h3> </strong>
             <span class="heading-border"></span>
             <ul class="menu-left__list ">
@@ -43,49 +48,44 @@
             <h3>As atividades serão listadas de acordo com a semana em que a mesma foi realizada.</h3>
         </div>
         <div class="semana1" id="semana1">
-            <h2>Atividade Realizada na primeira semana:</h2>
-            <p>No laboratório de eletrônica da Universidade de Tecnologia Avançada, um zumbido constante preenchia o ar enquanto estudantes dedicados se reuniam em torno de bancadas repletas de componentes eletrônicos. O cheiro característico de placas de circuito recém-soldadas misturava-se com o aroma de café, indicando que uma longa e produtiva sessão estava prestes a começar.
+            <h2>Primeira semana - Corte a laser </h2>
+            <p> A primeira semana no laboratório servio para que o professor Rafael Bayma nos desse uma visão geral dos projetos que poderiam ser realizados dentro do laboratorio, e também nos foi mostrado todas as maquinas disponiveis para realizar nossos projetos. Basicamente a grande maioria das maquinas presentes no laboratorio são do tipo CNC (Controle Numérico Computadorizado), esses equipamentos são utilizados na fabricação de peças, controlados por um computador que interpreta um código específico (geralmente G-code). Elas funcionam movimentando ferramentas de corte ou materiais em várias direções com alta precisão, seguindo as instruções do código para criar peças com formas e dimensões exatas.
             </p>
-            <p>No laboratório de eletrônica da Universidade de Tecnologia Avançada, um zumbido constante preenchia o ar enquanto estudantes dedicados se reuniam em torno de bancadas repletas de componentes eletrônicos. O cheiro característico de placas de circuito recém-soldadas misturava-se com o aroma de café, indicando que uma longa e produtiva sessão estava prestes a começar.
+            <p> Ao longo desta primeira semana nos fomos apresetados a ROUTER CNC LASER, que é uma máquina de corte e gravação a laser que utiliza tecnologia CNC para processar diversos materiais, como madeira, acrílico, plástico, couro e alguns metais. Dentre as maquinas presentes no laboratorio, essa é a mais simples de se operar, pois o laser se movimenta em apenas dois eixos, o processo é relativamente rapido em coparação as outras maquinas e a calibração da maquinas antes de realizar o trabalho pode ser feita rapidamente.
             </p>
-            <p>No laboratório de eletrônica da Universidade de Tecnologia Avançada, um zumbido constante preenchia o ar enquanto estudantes dedicados se reuniam em torno de bancadas repletas de componentes eletrônicos. O cheiro característico de placas de circuito recém-soldadas misturava-se com o aroma de café, indicando que uma longa e produtiva sessão estava prestes a começar.
+            <p> Para utilizar essa maquina a rotina de projeto é feita da seguinte maneira: primeiramente a geometria 2D que se deseja cortar ou gravar é feita em algum software de desenho, após isso essa geometria é salva em um formato vetorizaro, normalmete SVG. Em seguida o arquivo é carrego no software K40, que permite aos usuários importar desenhos, ajustar parâmetros de corte e gravação, e enviar comandos para a máquina. Com o K40, é possível configurar a potência do laser, a velocidade de corte, e a profundidade de gravação, além de pré-visualizar o projeto antes da execução.
             </p>
-            <p>No laboratório de eletrônica da Universidade de Tecnologia Avançada, um zumbido constante preenchia o ar enquanto estudantes dedicados se reuniam em torno de bancadas repletas de componentes eletrônicos. O cheiro característico de placas de circuito recém-soldadas misturava-se com o aroma de café, indicando que uma longa e produtiva sessão estava prestes a começar.
-            </p>
-            <p>No laboratório de eletrônica da Universidade de Tecnologia Avançada, um zumbido constante preenchia o ar enquanto estudantes dedicados se reuniam em torno de bancadas repletas de componentes eletrônicos. O cheiro característico de placas de circuito recém-soldadas misturava-se com o aroma de café, indicando que uma longa e produtiva sessão estava prestes a começar.
-            </p>
-            <p>No laboratório de eletrônica da Universidade de Tecnologia Avançada, um zumbido constante preenchia o ar enquanto estudantes dedicados se reuniam em torno de bancadas repletas de componentes eletrônicos. O cheiro característico de placas de circuito recém-soldadas misturava-se com o aroma de café, indicando que uma longa e produtiva sessão estava prestes a começar.
+            <p> Neste treinamento, realizei o corte no papelão para criar uma pequena caixa. Após carregar o arquivo da caixa no K40 e posicionar o laser sobre o mateiral, a potência foi ajustada e o corte foi realizado.  
             </p>
             <div class="imagem">
-                <img src="https://static.wixstatic.com/media/35dcba_dff8e200311444578968af7dd85c45b3~mv2.jpg/v1/fill/w_232,h_230,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/09-min.jpg" alt="Impressora 3D">
-                <img src="https://static.wixstatic.com/media/35dcba_dff8e200311444578968af7dd85c45b3~mv2.jpg/v1/fill/w_232,h_230,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/09-min.jpg" alt="Impressora 3D">
+                <img src="https://static.wixstatic.com/media/88b824_bb86da556cd84e39948db1963d35d202~mv2.jpeg" alt="Impressora 3D"img style= "width: 300px;" />
             </div>
         </div>
         
         <div class="semana2" id="semana2">
-            <h2>Atividade Realizada na segunda semana:</h2>
-            <p>Finalmente, chegou o momento de ligar o amplificador pela primeira vez. Com uma mistura de ansiedade e excitação, os estudantes seguraram a respiração enquanto girava o interruptor. Um silêncio expectante pairou sobre o laboratório por um instante, antes que os primeiros acordes de música enchessem o ar.</p>
+            <h2>Segunda semana - Impressão 3D</h2>
+            <p> A impressão 3D é uma técnica de fabricação aditiva que cria objetos tridimensionais a partir de um modelo digital. Utilizando uma impressora 3D, camadas sucessivas de material são depositadas até que a peça final seja formada. Esse processo é controlado por um computador que interpreta um modelo digital, geralmente em formato STL. </p>
+            <p> A impressora 3D disponivel no laboratorio utiliza a tecnologia FDM (Fused Deposition Modeling), onde filamentos de plástico (geralmente PLA ou ABS) são derretidos e extrudidos através de um bico aquecido para formar as camadas do objeto. A impressora movimenta o bico extrusor em três eixos (X, Y e Z) para construir a peça com precisão.</p>
+            <P> Para utilizar a impressora 3D, o processo de preparação do projeto é realizado da seguinte maneira: primeiramente a peça tridimensional é modelada em um software CAD, como Fusin360 ou SolidWorks, após a modelagem o arquivo é esportado em STL e carregado em um software de fateamenteo como por exemploo Cura, que converte o modelo em instruções G-code. Esse software permite ajustar parâmetros como altura de camada, velocidade de impressão, temperatura do bico e da mesa, entre outros. Por fim, o G-code é enviado para a impressora 3D, que inicia o processo de fabricação da peça.</P>
+            <p>
+                Nesta semana, realizei a impressão de um pequeno chaveiro. O modelo foi exportado de um site onde são compartilhados diversos modelos de chaveiros, o arquivo foi baixado em formato STL e fatiado no Cura. Ajustamos os parâmetros de impressão para utilizar PLA com bico de 0.4 mm. Após carregar o G-code na impressora e iniciar o processo, acompanhei a impressão até a finalização do chaveiro.
+            </p>
+                <img src="https://static.wixstatic.com/media/88b824_bbd681676af04d4c90fe7ab2f73f2109~mv2.jpeg" alt="Impressora 3D"img style= "width: 300px;" />
         </div>
         <div class="semana3" id="semana3">
-            <h2>Atividade Realizada na terceira semana:</h2>
+            <h2>Terceira semana - Técnicas de soldagens</h2>
+            <p> Na terceira semana, o foco das atividades no laboratório foi sobre técnicas de soldagem em placas de circuito impresso. O professor nos introduziu aos fundamentos da soldagem, destacando sua importância na montagem e reparo de circuitos eletrônicos.</p>
+            <p> Apredemos nessa semana a como manusear o ferro de solda para evitar acidentes, vimos como utilizar o fluxo para melhorar a aderência da solda na placa, vimos também como devemos posicionar corretamente os componentes na placa para evitar que ocorra curto circuito.</p>
+                <img src="https://static.wixstatic.com/media/88b824_55a732bc03604b1f8f0e07854b42f20e~mv2.jpeg" alt="Impressora 3D"img style= "width: 300px;" />
         </div>
         <div class="semana4" id="semana4">
-            <h2>Atividade Realizada na quarta semana:</h2>
-            <p>No laboratório de eletrônica da Universidade de Tecnologia Avançada, um zumbido constante preenchia o ar enquanto estudantes dedicados se reuniam em torno de bancadas repletas de componentes eletrônicos. O cheiro característico de placas de circuito recém-soldadas misturava-se com o aroma de café, indicando que uma longa e produtiva sessão estava prestes a começar.
-            </p>
-            <p>No laboratório de eletrônica da Universidade de Tecnologia Avançada, um zumbido constante preenchia o ar enquanto estudantes dedicados se reuniam em torno de bancadas repletas de componentes eletrônicos. O cheiro característico de placas de circuito recém-soldadas misturava-se com o aroma de café, indicando que uma longa e produtiva sessão estava prestes a começar.
-            </p>
-            <p>No laboratório de eletrônica da Universidade de Tecnologia Avançada, um zumbido constante preenchia o ar enquanto estudantes dedicados se reuniam em torno de bancadas repletas de componentes eletrônicos. O cheiro característico de placas de circuito recém-soldadas misturava-se com o aroma de café, indicando que uma longa e produtiva sessão estava prestes a começar.
-            </p>
-            <p>No laboratório de eletrônica da Universidade de Tecnologia Avançada, um zumbido constante preenchia o ar enquanto estudantes dedicados se reuniam em torno de bancadas repletas de componentes eletrônicos. O cheiro característico de placas de circuito recém-soldadas misturava-se com o aroma de café, indicando que uma longa e produtiva sessão estava prestes a começar.
-            </p>
-            <p>No laboratório de eletrônica da Universidade de Tecnologia Avançada, um zumbido constante preenchia o ar enquanto estudantes dedicados se reuniam em torno de bancadas repletas de componentes eletrônicos. O cheiro característico de placas de circuito recém-soldadas misturava-se com o aroma de café, indicando que uma longa e produtiva sessão estava prestes a começar.
-            </p>
+            <h2>Quarta semana - Plotter de corte </h2>
+            <p> Para a quarta semana no FABLAB, aprendemos sobre a plotter de corte, essa maquina se destaca por ter uma grande versatilidade no corte de materias maleaveis como vinil, papel e tecido. A metodologia de trabalho se assemelha a cortadora a laser, mudando apenas a forma com que as maquinas realizam o corte. </p>
+            <img src="https://static.wixstatic.com/media/88b824_300458361aea448699f9459e375e059f~mv2.jpeg" alt="Impressora 3D"img style= "width: 300px;" />
         </div>
         <div class="semana5" id="semana5">
             <h2>Atividade Realizada na quinta semana:</h2>
-            <p>No laboratório de eletrônica da Universidade de Tecnologia Avançada, um zumbido constante preenchia o ar enquanto estudantes dedicados se reuniam em torno de bancadas repletas de componentes eletrônicos. O cheiro característico de placas de circuito recém-soldadas misturava-se com o aroma de café, indicando que uma longa e produtiva sessão estava prestes a começar.
-            </p>
+            
         </div>
     </div>
 </body>

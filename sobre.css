@@ -1,35 +1,31 @@
-
-
-.container1 h1{
-    padding-bottom: 20px;
+.container1 h1 {
     text-align: justify;
 }
 
-.container1{
+.container1 {
     margin-left: 90px; /* Ajusta conforme a largura da sua barra lateral */
     padding: 20px;
     padding-top: 50px; /* Ajusta conforme a altura do seu cabeçalho */
 }
+
 .container1 h1 {
-    margin-top: 20px;
-    padding-top: 20px;
+    padding-top: 40px;
     margin-bottom: 40px;
 }
 
-
-.contato-leo h1{
+.contato-leo h1 {
     text-align: center;
 }
-.projetos-leo h1{
-    margin-top: 50px;
-    padding-top: 30px;
+
+.projetos-leo h1 {
+    padding-top: 80px;
 }
 
-.fablab h2, .lemag h2, .lacut h2{
-    padding-top: 60px;
+.fablab h2, .lemag h2, .lacut h2 {
+    padding-top: 80px;
 }
 
-.nome-leo p , .projetos-leo p, .fablab p, .lemag p, .lacut p{
+.nome-leo p, .projetos-leo p, .fablab p, .lemag p, .lacut p {
     text-align: justify;
 }
 
@@ -38,31 +34,29 @@
     margin-bottom: 10px;
 }
 
+
 .container1 img {
-    margin-top: 10px;
-    width: 330px;
+    display: block;
+    margin: 10px auto; /* Centraliza horizontalmente */
+    width: 270px;
     border-radius: 3px; 
     transition: transform 0.3s ease;
 }
 
-.container1 img:hover {
-    transform: scale(1.03);
-}
 .sidebar2 {
     position: fixed;
     font-family: sans-serif;
-    top: 135px;
-    right: -210px;
+    top: 132px;
+    right: -180px;
     width: 130px;
-    height: 33%;
+    height: 27%;
     font-size: 15px;
-
     text-align: start;
     border-style: none;
     border-color: #ffffff;
-    border-radius: 5px;
+    border-radius: 3px;
     transition: right 0.3s;
-    background-color: #ebedf3;    
+    background-color: #e6e9f1;
 }
 
 .sidebar2.active {
@@ -123,26 +117,15 @@
     padding-bottom: 8px;
 }
 
-.heading-border {
-    height: 0.1em;
-    display: flex;
-    width: 90%;
-    left: 5px;
-    position: relative;
-    background-color: rgb(48, 48, 48);
-    margin-bottom: 10px;
-}
-
 .menu-button2 {
     position: fixed;
     top: 80px;
     right: 0px;
-    border-radius: 6px;
     cursor: pointer;
     border: none;
-    color: rgb(0, 0, 0);
-    font-size: 22px;
-    background-color: #122c92;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    background-color: #091a5a;
 }
 
 .menu-button2:hover {
@@ -150,20 +133,20 @@
     border-radius: 2px;
 }
 
-.box-social    { 
+.box-social {
     margin: auto;
     display: table;
 }
 
-.box-social li {  
-    float:left; 
-    text-align:center; 
+.box-social li {
+    float: left;
+    text-align: center;
     margin: 10px;
     border-radius: 50px;
     overflow: hidden;
 }
 
-.icone-box-github, .icone-box-linkedin, .icone-box-email{
+.icone-box-github, .icone-box-linkedin, .icone-box-email {
     width: 45px;
     height: 45px;
     justify-content: center;
@@ -171,22 +154,68 @@
 
 .contato-leo i {
     font-size: 20px !important;
-    margin-top:25%;
+    margin-top: 25%;
 }
 
 .icone-box-linkedin {
-    background-color:#3b5998;
+    background-color: #3b5998;
     color: #fff;
     font-size: 10px !important;
 }
 
 .icone-box-github {
-    background-color:#2b2b2b;
+    background-color: #2b2b2b;
     color: #fff;
 }
+
 .icone-box-email {
-    background-color:#be4f40;
-    color:#fff;
+    background-color: #be4f40;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .container1 {
+        margin-left: 20px; /* Ajusta a margem para telas menores */
+        padding: 10px;
+        padding-top: 30px; /* Ajusta conforme a altura do seu cabeçalho */
+    }
+
+    .container1 h1, .projetos-leo h1, .contato-leo h1 {
+        font-size: 22px;
+    }
+    .box-social li {
+        margin: 5px;
+    }
+
+    .icone-box-github, .icone-box-linkedin, .icone-box-email {
+        width: 40px;
+        height: 40px;
+    }
+    .container1 img {
+        width: 250px;
+    }
+    .container1 p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container1 {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .container1 h1, .projetos-leo h1, .contato-leo h1, .fablab h2, .lemag h2, .lacut h2 {
+        padding-top: 80px;
+        font-size: 20px;
+    }
+
+    .container1 img {
+        width: 200px;
+    }
+    .container1 p{
+        font-size: 15px;
+    }
 }
 
 .flip-cor {
