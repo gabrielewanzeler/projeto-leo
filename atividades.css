@@ -1,27 +1,19 @@
-body{
-    padding: 0;
-    margin: 0;
-    margin-left: 280px;
-    margin-right: 370px;
-}
+
 
 .container1{
-    display: grid;
-    text-align: justify;
+    margin-left: 90px; /* Ajusta conforme a largura da sua barra lateral */
+    padding: 20px;
+    padding-top: 80px; /* Ajusta conforme a altura do seu cabeçalho */
 }
-
-.atv {
-    margin-top: 120px;
+.container1 h1 {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 40px;
 }
 
 .semana1 h2, .semana2 h2, .semana3 h2, .semana4 h2, .semana5 h2 {
     margin-top: 50px;
     padding-top: 40px; 
-
-}
-
-.semana1 p, .semana2 p, .semana3 p, .semana4 p, .semana5 p{
-    font-family: cursive;
 }
 
 .sidebar2 {
@@ -88,8 +80,3 @@ body{
     background-color: rgb(48, 48, 48);
     margin-bottom: 18px;
 }
-
-.imagem{
-    margin-left: 400px;
-}
-

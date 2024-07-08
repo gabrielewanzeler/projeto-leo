@@ -1,16 +1,16 @@
-.container-fab{
-    margin-left: 280px;
-    margin-right: 360px;
-    padding-top: 20px;
-    margin-top: 80px;
-    text-align: justify;
-}
+
 .container-fab h1{
-    padding-bottom: 0px;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.container-fab{
+    margin-left: 90px; /* Ajusta conforme a largura da sua barra lateral */
+    padding: 20px;
+    padding-top: 80px; /* Ajusta conforme a altura do seu cabeçalho */
 }
 
 .conteudo-fab img{
-    
     width: 500px;
     border-radius: 3px;
     transition: transform 0.4s ease;
