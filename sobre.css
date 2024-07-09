@@ -1,14 +1,14 @@
-.container1 h1 {
+.container-proj h1 {
     text-align: justify;
 }
 
-.container1 {
-    margin-left: 90px; /* Ajusta conforme a largura da sua barra lateral */
+.container-proj {
+    margin-left: 90px;
     padding: 20px;
-    padding-top: 50px; /* Ajusta conforme a altura do seu cabeçalho */
+    padding-top: 50px;
 }
 
-.container1 h1 {
+.container-proj h1 {
     padding-top: 40px;
     margin-bottom: 40px;
 }
@@ -34,13 +34,11 @@
     margin-bottom: 10px;
 }
 
-
-.container1 img {
+.container-proj img {
     display: block;
     margin: 10px auto; /* Centraliza horizontalmente */
     width: 270px;
     border-radius: 3px; 
-    transition: transform 0.3s ease;
 }
 
 .sidebar2 {
@@ -57,10 +55,16 @@
     border-radius: 3px;
     transition: right 0.3s;
     background-color: #e6e9f1;
+    z-index: 1000;
 }
 
 .sidebar2.active {
     right: 0;
+}
+
+.container-proj.blur {
+    filter: blur(2px);
+    transition: filter 0.3s ease;
 }
 
 .sidebar2 ul {
@@ -126,6 +130,7 @@
     color: rgb(255, 255, 255);
     font-size: 18px;
     background-color: #091a5a;
+    z-index: 1001; /* Para garantir que o botão fique acima do conteúdo */
 }
 
 .menu-button2:hover {
@@ -174,13 +179,13 @@
 }
 
 @media (max-width: 768px) {
-    .container1 {
+    .container-proj {
         margin-left: 20px; /* Ajusta a margem para telas menores */
         padding: 10px;
         padding-top: 30px; /* Ajusta conforme a altura do seu cabeçalho */
     }
 
-    .container1 h1, .projetos-leo h1, .contato-leo h1 {
+    .container-proj h1, .projetos-leo h1, .contato-leo h1 {
         font-size: 22px;
     }
     .box-social li {
@@ -191,29 +196,30 @@
         width: 40px;
         height: 40px;
     }
-    .container1 img {
+    
+    .container-proj img {
         width: 250px;
     }
-    .container1 p{
+    .container-proj p{
         font-size: 15px;
     }
 }
 
 @media (max-width: 480px) {
-    .container1 {
+    .container-proj {
         margin: 0;
         padding: 10px;
     }
 
-    .container1 h1, .projetos-leo h1, .contato-leo h1, .fablab h2, .lemag h2, .lacut h2 {
+    .container-proj h1, .projetos-leo h1, .contato-leo h1, .fablab h2, .lemag h2, .lacut h2 {
         padding-top: 80px;
         font-size: 20px;
     }
 
-    .container1 img {
-        width: 200px;
+    .container-proj img {
+        width: 200px !important;
     }
-    .container1 p{
+    .container-proj p{
         font-size: 15px;
     }
 }

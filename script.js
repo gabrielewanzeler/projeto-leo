@@ -17,14 +17,14 @@ document.addEventListener('click', function(event) {
     }
 });
 
-
 function alternarSidebar2() {
     var sidebar2 = document.querySelector('.sidebar2');
+    var cont1 = document.querySelector('.container-proj');
     sidebar2.classList.toggle('active');
+    cont1.classList.toggle('blur');
 }
 
-document.querySelector('.menu-button2').addEventListener('click', alternarSidebar2);
-
+//document.querySelector('.menu-button2').addEventListener('click', alternarSidebar2);
 document.addEventListener('click', function(event) {
     var sidebar2 = document.querySelector('.sidebar2');
     var menuButton2 = document.querySelector('.menu-button2');
@@ -38,12 +38,12 @@ document.addEventListener('click', function(event) {
 
 function alternarSidebar3() {
     var sidebar3 = document.querySelector('.sidebar3');
+    var container1 = document.querySelector('.container1');
     sidebar3.classList.toggle('active');
+    container1.classList.toggle('blur');
 }
 
-
-document.querySelector('.menu-button3').addEventListener('click', alternarSidebar3);
-
+//document.querySelector('.menu-button3').addEventListener('click', alternarSidebar3);
 document.addEventListener('click', function(event) {
     var sidebar3 = document.querySelector('.sidebar3');
     var menuButton3 = document.querySelector('.menu-button3');

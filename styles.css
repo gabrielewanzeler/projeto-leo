@@ -50,6 +50,20 @@ body {
     background-color: #091a5a;    
     transition: left 0.3s ease;
     padding-top: 100px;
+    z-index: 99; 
+}
+
+.menu-button {
+    position: fixed;
+    top: 18px;
+    border-radius: 6px;
+    left: 15px;
+    z-index: 9999; 
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 22px;
+    background-color: transparent;
 }
 
 .sidebar.active {
@@ -87,19 +101,6 @@ body {
 .sidebar a:hover {
     color: rgb(255, 255, 255);
     text-shadow: rgb(43, 49, 80) 0.2em 0.2em 0.4em;
-}
-
-.menu-button {
-    position: absolute;
-    top: 18px;
-    border-radius: 6px;
-    left: 15px;
-    z-index: 9999; 
-    cursor: pointer;
-    border: none;
-    color: white;
-    font-size: 22px;
-    background-color: transparent;
 }
 
 .menu-button:hover {
